@@ -19,9 +19,9 @@ class ExClass(unittest.TestCase):
     def test_case_3(self):
         print("This is test case 3")
 
-    # def tearDown(self):
-    #     sleep(5)
-    #     self.driver.close()
+    def tearDown(self):
+        sleep(5)
+        self.driver.close()
 
 if __name__ == '__main__':
     unittest.main()
